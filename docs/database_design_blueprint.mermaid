@@ -1,0 +1,9 @@
+graph TD
+    A["SQL Interface (SQL strings, TypeScript API, REPL)"] --> B["SQL Frontend (Lexer → Parser → AST → Semantic Analysis)"]
+    B --> C["Query Processing (Planner → Optimizer → Execution Engine)"]
+    C --> D["Database Core"]
+    D --> E["Catalog (tables and schemas)"]
+    D --> F["Indexes (B+ tree)"]
+    D --> G["Storage (pages and records)"]
+    D --> H["Transactions (logging and recovery)"]
+    D --> I["OS I/O (Node fs APIs, database file)"]
