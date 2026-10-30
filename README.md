@@ -8,9 +8,6 @@ The most important modules of a SQL database are:
     <li>SQL parser</li>
     <li>query planner</li>
     <li>storage engine</li>
-    For more info about how a <strong>storage engine</strong> works with other parts of the database, have a look at the diagram below:<br/>
-    <img src="./docs/storage_engine.jpeg" alt="the diagram of storage engine" width="400" />
-    <br/>
     <li>indexing</li>
     <li>transaction manager</li>
     <li>execution engine</li>
